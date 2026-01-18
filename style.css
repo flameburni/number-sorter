@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.sorter-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    user-select: none;
+}
+
+.sorter-container h1{
+    text-align: center;
+}
+
+#numberInput {
+    margin-bottom: 10px;
+    user-select: none;
+}
+
+#resultOutput {
+    margin-bottom: 10px;
+    user-select: none;
+}
+
+.sorter-container button {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:600px) {
+    #numberInput, #resultOutput, .sorter-container {
+        text-align: center;
+    }
+}
+
+
+

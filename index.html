@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Number Sorter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <div class="sorter-container">
+        <h1>Number Sorter</h1>
+        <p>This program helps to sort numbers in both ascending and descending order, get the total of the numbers and return the original numbers inputed.</p>
+        <p>The numbers entered should be separated by commas eg., 50, 20, 10, 30.</p>
+
+        <div>
+            <input type="text" name="numberInput" id="numberInput" placeholder="Enter the numbers">
+        </div>
+
+        <div>
+            <input type="text" name="resultOutput" id="resultOutput" placeholder="Result" readonly>
+        </div>
+
+        <div class="buttons">
+            <button id="ascendingOrderButton">Sort Ascending</button>
+            <button id="descendingOrderButton">Sort Descending</button>
+            <button id="getTotalButton">Get Total</button>
+            <button id="getMaximumNumberButton">Get Maximum Number</button>
+            <button id="getMinimumNumberButton">Get Minimum Number</button>
+            <button id="getAverageButton">Get Average</button>
+            <button id="clearButton">Clear</button>
+            <button id="darkBackground">Dark Mode</button>
+            <button id="lightBackground">Light Mode</button>
+        </div>
+        <script src="main.js"></script>
+    </div>
+</body>
+</html>
